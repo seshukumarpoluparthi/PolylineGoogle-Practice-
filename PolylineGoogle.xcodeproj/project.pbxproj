@@ -1,0 +1,400 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7A1C56C1EC6D8928187035A2 /* Pods_PolylineGoogle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 543E03E3AFAE3874997A1144 /* Pods_PolylineGoogle.framework */; };
+		CB1E8A6A20B4439A00CA1D7F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1E8A6920B4439A00CA1D7F /* AppDelegate.swift */; };
+		CB1E8A6C20B4439A00CA1D7F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1E8A6B20B4439A00CA1D7F /* ViewController.swift */; };
+		CB1E8A6F20B4439A00CA1D7F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB1E8A6D20B4439A00CA1D7F /* Main.storyboard */; };
+		CB1E8A7120B4439A00CA1D7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB1E8A7020B4439A00CA1D7F /* Assets.xcassets */; };
+		CB1E8A7420B4439A00CA1D7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB1E8A7220B4439A00CA1D7F /* LaunchScreen.storyboard */; };
+		CB1E8A7C20B4568000CA1D7F /* Markers.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1E8A7B20B4568000CA1D7F /* Markers.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		543E03E3AFAE3874997A1144 /* Pods_PolylineGoogle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PolylineGoogle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E3E1222CD7886D39E99C291 /* Pods-PolylineGoogle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PolylineGoogle.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PolylineGoogle/Pods-PolylineGoogle.debug.xcconfig"; sourceTree = "<group>"; };
+		C67A17DDF5A8E53F5DBF22C5 /* Pods-PolylineGoogle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PolylineGoogle.release.xcconfig"; path = "Pods/Target Support Files/Pods-PolylineGoogle/Pods-PolylineGoogle.release.xcconfig"; sourceTree = "<group>"; };
+		CB1E8A6620B4439A00CA1D7F /* PolylineGoogle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PolylineGoogle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB1E8A6920B4439A00CA1D7F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CB1E8A6B20B4439A00CA1D7F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CB1E8A6E20B4439A00CA1D7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CB1E8A7020B4439A00CA1D7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CB1E8A7320B4439A00CA1D7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CB1E8A7520B4439A00CA1D7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB1E8A7B20B4568000CA1D7F /* Markers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Markers.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB1E8A6320B4439A00CA1D7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A1C56C1EC6D8928187035A2 /* Pods_PolylineGoogle.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB1E8A5D20B4439A00CA1D7F = {
+			isa = PBXGroup;
+			children = (
+				CB1E8A6820B4439A00CA1D7F /* PolylineGoogle */,
+				CB1E8A6720B4439A00CA1D7F /* Products */,
+				EC7CB54F43522385A77511EE /* Pods */,
+				DB6831F2AEF814599DE26325 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CB1E8A6720B4439A00CA1D7F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB1E8A6620B4439A00CA1D7F /* PolylineGoogle.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB1E8A6820B4439A00CA1D7F /* PolylineGoogle */ = {
+			isa = PBXGroup;
+			children = (
+				CB1E8A6920B4439A00CA1D7F /* AppDelegate.swift */,
+				CB1E8A6B20B4439A00CA1D7F /* ViewController.swift */,
+				CB1E8A7B20B4568000CA1D7F /* Markers.swift */,
+				CB1E8A6D20B4439A00CA1D7F /* Main.storyboard */,
+				CB1E8A7020B4439A00CA1D7F /* Assets.xcassets */,
+				CB1E8A7220B4439A00CA1D7F /* LaunchScreen.storyboard */,
+				CB1E8A7520B4439A00CA1D7F /* Info.plist */,
+			);
+			path = PolylineGoogle;
+			sourceTree = "<group>";
+		};
+		DB6831F2AEF814599DE26325 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				543E03E3AFAE3874997A1144 /* Pods_PolylineGoogle.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC7CB54F43522385A77511EE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8E3E1222CD7886D39E99C291 /* Pods-PolylineGoogle.debug.xcconfig */,
+				C67A17DDF5A8E53F5DBF22C5 /* Pods-PolylineGoogle.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB1E8A6520B4439A00CA1D7F /* PolylineGoogle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB1E8A7820B4439A00CA1D7F /* Build configuration list for PBXNativeTarget "PolylineGoogle" */;
+			buildPhases = (
+				6922C66AB4719B8441D61948 /* [CP] Check Pods Manifest.lock */,
+				CB1E8A6220B4439A00CA1D7F /* Sources */,
+				CB1E8A6320B4439A00CA1D7F /* Frameworks */,
+				CB1E8A6420B4439A00CA1D7F /* Resources */,
+				72C75B8A3D86C8BB7334F86D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PolylineGoogle;
+			productName = PolylineGoogle;
+			productReference = CB1E8A6620B4439A00CA1D7F /* PolylineGoogle.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB1E8A5E20B4439A00CA1D7F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Exaact;
+				TargetAttributes = {
+					CB1E8A6520B4439A00CA1D7F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CB1E8A6120B4439A00CA1D7F /* Build configuration list for PBXProject "PolylineGoogle" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB1E8A5D20B4439A00CA1D7F;
+			productRefGroup = CB1E8A6720B4439A00CA1D7F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB1E8A6520B4439A00CA1D7F /* PolylineGoogle */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB1E8A6420B4439A00CA1D7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB1E8A7420B4439A00CA1D7F /* LaunchScreen.storyboard in Resources */,
+				CB1E8A7120B4439A00CA1D7F /* Assets.xcassets in Resources */,
+				CB1E8A6F20B4439A00CA1D7F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6922C66AB4719B8441D61948 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PolylineGoogle-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		72C75B8A3D86C8BB7334F86D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PolylineGoogle/Pods-PolylineGoogle-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PolylineGoogle/Pods-PolylineGoogle-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB1E8A6220B4439A00CA1D7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB1E8A6C20B4439A00CA1D7F /* ViewController.swift in Sources */,
+				CB1E8A6A20B4439A00CA1D7F /* AppDelegate.swift in Sources */,
+				CB1E8A7C20B4568000CA1D7F /* Markers.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CB1E8A6D20B4439A00CA1D7F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB1E8A6E20B4439A00CA1D7F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CB1E8A7220B4439A00CA1D7F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB1E8A7320B4439A00CA1D7F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CB1E8A7620B4439A00CA1D7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CB1E8A7720B4439A00CA1D7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB1E8A7920B4439A00CA1D7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E3E1222CD7886D39E99C291 /* Pods-PolylineGoogle.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4755664329;
+				INFOPLIST_FILE = PolylineGoogle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Exaact.PolylineGoogle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CB1E8A7A20B4439A00CA1D7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C67A17DDF5A8E53F5DBF22C5 /* Pods-PolylineGoogle.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4755664329;
+				INFOPLIST_FILE = PolylineGoogle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Exaact.PolylineGoogle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB1E8A6120B4439A00CA1D7F /* Build configuration list for PBXProject "PolylineGoogle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB1E8A7620B4439A00CA1D7F /* Debug */,
+				CB1E8A7720B4439A00CA1D7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB1E8A7820B4439A00CA1D7F /* Build configuration list for PBXNativeTarget "PolylineGoogle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB1E8A7920B4439A00CA1D7F /* Debug */,
+				CB1E8A7A20B4439A00CA1D7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB1E8A5E20B4439A00CA1D7F /* Project object */;
+}
